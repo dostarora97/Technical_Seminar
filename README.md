@@ -1,5 +1,5 @@
 # Technical_Seminar  
-## Follow these instructions to setup
+## Local
 
 ### Ubuntu/Mac
 ```
@@ -19,4 +19,8 @@ jupyter notebook
 ### Windows
 ```
 Not Supported.
+```
+## Google Colab
+```
+https://colab.research.google.com/github/dostarora97/Technical_Seminar/blob/master/techSem.ipynb
 ```
