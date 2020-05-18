@@ -4,4 +4,4 @@ tmp.txt
 data/*
 benchmarks/bench_data/*
 benchmarks/__pycache__
-*.DS_store
+benchmarks/.DS_store
