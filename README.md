@@ -1,7 +1,7 @@
 # Technical_Seminar  
-## Local
+## 1 Local
 
-### Ubuntu/Mac
+### 1.1 Ubuntu/Mac
 ```
 git clone https://github.com/dostarora97/Technical_Seminar.git  
 cd Technical_Seminar  
@@ -16,11 +16,18 @@ pip install -r requirements.ubuntu.txt
 jupyter notebook  
 ```
 
-### Windows
+### 1.2 Windows
 ```
 Not Supported.
 ```
-## Google Colab
+## 1.3 Google Colab
+Go to: https://colab.research.google.com/github/dostarora97/Technical_Seminar/blob/master/techSem.ipynb
+Insert a Cell in the beginning with this code: 
 ```
-https://colab.research.google.com/github/dostarora97/Technical_Seminar/blob/master/techSem.ipynb
+!git clone https://github.com/dostarora97/Technical_Seminar.git
+%cd Technical_Seminar
+!pip install -r requirements.ubuntu.txt
+rr = input("Restarted Runtime? [y/n] : ")
 ```
+Run All : Menu Bar -> Runtime -> Run All (or Ctrl+F9)
+When Prompted to `Restart Runtime`, do so by : Menu Bar -> Runtime -> Restart Runtime (or Ctrl+m)
