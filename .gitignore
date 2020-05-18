@@ -1,3 +1,6 @@
 .ipynb_checkpoints
 Env_TechSem
 tmp.txt
+data/*
+benchmarks/bench_data/*
+benchmarks/__pycache__
