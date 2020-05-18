@@ -9,7 +9,7 @@ python3 -m venv Env_TechSem
 source Env_TechSem/bin/activate  
 pip freeze > tmp.txt
 pip uninstall -r tmp.txt -y
-python3 -m pip install --upgrade pip 
+python -m pip install --upgrade pip 
 pip install -U wheel
 pip install -U setuptools
 pip install -r requirements.ubuntu.txt  
