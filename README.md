@@ -1,4 +1,5 @@
 # Technical_Seminar  
+Follow these instructions to setup
 ```
 git clone https://github.com/dostarora97/Technical_Seminar.git  
 cd Techincal_Seminar  
