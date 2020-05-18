@@ -4,7 +4,7 @@
 ### Ubuntu/Mac
 ```
 git clone https://github.com/dostarora97/Technical_Seminar.git  
-cd Techincal_Seminar  
+cd Technical_Seminar  
 python -m venv Env_TechSem  
 source Env_TechSem\bin\activate  
 pip freeze > tmp.txt
