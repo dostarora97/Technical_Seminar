@@ -30,4 +30,4 @@ Insert a Cell in the beginning with this code:
 rr = input("Restarted Runtime? [y/n] : ")
 ```
 Run All : Menu Bar -> Runtime -> Run All (or Ctrl+F9)  
-When Prompted to `Restart Runtime`, do so by : Menu Bar -> Runtime -> Restart Runtime (or Ctrl+m)  
+When Prompted to `Restart Runtime`, do so by : Menu Bar -> Runtime -> Restart Runtime (or Ctrl+m) and enter 'y', after that in the text box  
