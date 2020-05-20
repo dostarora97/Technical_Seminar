@@ -16,7 +16,7 @@ Asuming Python3.6+ is available
 There are two ways to set-up:  
 <ol>
     <li>
-        Either Run these commands directly in terminal
+        Either Run these commands directly in terminal  
 ```
 python3 -m venv Env_Tech_Sem  
 source Env_Tech_Sem/bin/activate  
