@@ -27,7 +27,8 @@ pip install -U setuptools
 pip install -r requirements.ubuntu.txt  
 jupyter notebook  
 ```
-~2. Or, Use helper script to run all of them automatically.~(Not safe)  
+~2. Or, Use helper script to run all of them automatically.~
+(Don't use following commands. Not safe. Python may not be able to build virtual environment)  
 ```
 chmod +x ./Scripts/First_Run.sh
 ./Scripts/First_Run.sh
