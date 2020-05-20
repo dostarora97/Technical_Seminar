@@ -9,8 +9,8 @@ cd Technical_Seminar
 Required Python 3.6+ (check current version on system using : `python3 --version`)   
 To download Python3.8 run following commands:
 ```
-chmod +x ./Scripts/Install_Python38.sh
-./Scripts/Install_Python38.sh
+~chmod +x ./Scripts/Install_Python38.sh~
+~./Scripts/Install_Python38.sh~
 ```
 Asuming Python3.6+ is available  
 There are two ways to set-up:  
