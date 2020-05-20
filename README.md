@@ -49,5 +49,5 @@ rr = input("Restarted Runtime? [y/n] : ")
 ```
 Run All from : Menu Bar -> Runtime -> Run All (or Ctrl+F9)  
 When Prompted to `Restart Runtime`, do so from: Menu Bar -> Runtime -> Restart Runtime (or Ctrl+m).  
-After that dor Run All from : Menu Bar -> Runtime -> Run All (or Ctrl+F9)   
+After that do Run All from : Menu Bar -> Runtime -> Run All (or Ctrl+F9)   
 After that, enter 'y', in the text box.  
