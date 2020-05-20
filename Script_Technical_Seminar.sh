@@ -25,12 +25,14 @@ python3.8 -m pip freeze > tmp.txt
 echo "##### STEP - 12/17 #####"
 python3.8 -m pip uninstall -r tmp.txt -y
 echo "##### STEP - 13/17 #####"
+rm -rf tmp.txt
+echo "##### STEP - 14/18 #####"
 python3.8 -m pip install --upgrade pip 
-echo "##### STEP - 14/17 #####"
+echo "##### STEP - 15/8 #####"
 python3.8 -m pip install -U wheel
-echo "##### STEP - 15/17 #####"
+echo "##### STEP - 16/18 #####"
 python3.8 -m pip install -U setuptools
-echo "##### STEP - 16/17 #####"
+echo "##### STEP - 17/18 #####"
 python3.8 -m pip install -r requirements.ubuntu.txt  
-echo "##### STEP - 17/17 #####"
+echo "##### STEP - 18/18 #####"
 python3.8 -m jupyter notebook  

@@ -5,3 +5,4 @@ data/*
 benchmarks/bench_data/*
 benchmarks/__pycache__
 benchmarks/.DS_store
+.vscode
