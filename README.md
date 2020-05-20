@@ -27,11 +27,11 @@ pip install -U setuptools
 pip install -r requirements.ubuntu.txt  
 jupyter notebook  
 ```
-2. Or, Use helper script to run all of them automatically. 
+~2. Or, Use helper script to run all of them automatically. 
 ```
 chmod +x ./Scripts/First_Run.sh
 ./Scripts/First_Run.sh
-```
+```~
 
 ### 1.2 Windows
 ```
