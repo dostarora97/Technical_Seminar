@@ -5,8 +5,8 @@
 ```
 git clone https://github.com/dostarora97/Technical_Seminar.git  
 cd Technical_Seminar  
-python3 -m venv Env_TechSem  
-source Env_TechSem/bin/activate  
+python3 -m venv Env_Tech_Sem  
+source Env_Tech_Sem/bin/activate  
 pip freeze > tmp.txt
 pip uninstall -r tmp.txt -y
 rm -rf tmp.txt
@@ -31,4 +31,5 @@ Insert a Cell in the beginning with this code:
 rr = input("Restarted Runtime? [y/n] : ")
 ```
 Run All from : Menu Bar -> Runtime -> Run All (or Ctrl+F9)  
-When Prompted to `Restart Runtime`, do so from: Menu Bar -> Runtime -> Restart Runtime (or Ctrl+m) and enter 'y', after that in the text box  
+When Prompted to `Restart Runtime`, do so from: Menu Bar -> Runtime -> Restart Runtime (or Ctrl+m).
+After that, enter 'y', in the text box  

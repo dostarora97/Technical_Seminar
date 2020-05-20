@@ -1,8 +1,8 @@
 .ipynb_checkpoints
-Env_TechSem
+Env_Tech_Sem
 tmp.txt
-data/*
-benchmarks/bench_data/*
-benchmarks/__pycache__
-benchmarks/.DS_store
+util/dataset/*
+util/benchmarks/bench_data/*
+util/benchmarks/__pycache__
+util/benchmarks/.DS_store
 .vscode
