@@ -14,37 +14,26 @@ chmod +x ./Scripts/Install_Python38.sh
 ```
 Asuming Python3.6+ is available  
 There are two ways to set-up:  
-<ol>
-    <li>
-        Either Run these commands directly in terminal  
-        
-        ```
-        python3 -m venv Env_Tech_Sem  
-        source Env_Tech_Sem/bin/activate  
-        pip freeze > tmp.txt
-        pip uninstall -r tmp.txt -y
-        rm -rf tmp.txt
-        python -m pip install --upgrade pip 
-        pip install -U wheel
-        pip install -U setuptools
-        pip install -r requirements.ubuntu.txt  
-        jupyter notebook  
-        ```
-
-    </li>
-    <li>
-        Or, Use helper script to run all of them automatically. 
-        
-        ```
-        chmod +x ./Scripts/First_Run.sh
-        ./Scripts/First_Run.sh
-        
-        ```
-    </li>
-<ol>
+1. Either Run these commands directly in terminal   
+```
+python3 -m venv Env_Tech_Sem  
+source Env_Tech_Sem/bin/activate  
+pip freeze > tmp.txt
+pip uninstall -r tmp.txt -y
+rm -rf tmp.txt
+python -m pip install --upgrade pip 
+pip install -U wheel
+pip install -U setuptools
+pip install -r requirements.ubuntu.txt  
+jupyter notebook  
+```
+2. Or, Use helper script to run all of them automatically. 
+```
+chmod +x ./Scripts/First_Run.sh
+./Scripts/First_Run.sh
+```
 
 ### 1.2 Windows
-
 ```
 Not Supported.
 ```
