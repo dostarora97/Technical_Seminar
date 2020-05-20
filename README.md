@@ -17,18 +17,18 @@ There are two ways to set-up:
 <ol>
     <li>
         Either Run these commands directly in terminal
-        ```
-        python3 -m venv Env_Tech_Sem  
-        source Env_Tech_Sem/bin/activate  
-        pip freeze > tmp.txt
-        pip uninstall -r tmp.txt -y
-        rm -rf tmp.txt
-        python -m pip install --upgrade pip 
-        pip install -U wheel
-        pip install -U setuptools
-        pip install -r requirements.ubuntu.txt  
-        jupyter notebook  
-        ```
+```
+python3 -m venv Env_Tech_Sem  
+source Env_Tech_Sem/bin/activate  
+pip freeze > tmp.txt
+pip uninstall -r tmp.txt -y
+rm -rf tmp.txt
+python -m pip install --upgrade pip 
+pip install -U wheel
+pip install -U setuptools
+pip install -r requirements.ubuntu.txt  
+jupyter notebook  
+```
     </li>
     <li>
         Use helper script to all of them automatically
