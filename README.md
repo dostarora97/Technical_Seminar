@@ -6,7 +6,7 @@ Clone repo and change directory:
 git clone https://github.com/dostarora97/Technical_Seminar.git  
 cd Technical_Seminar  
 ```
-Required Python 3.6+ (check current version on system by : `python3 --version`)   
+Required Python 3.6+ (check current version on system using : `python3 --version`)   
 To download Python3.8 run following commands:
 ```
 chmod +x ./Scripts/Install_Python38.sh
