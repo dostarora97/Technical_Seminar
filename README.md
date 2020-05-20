@@ -9,8 +9,8 @@ cd Technical_Seminar
 Required Python 3.6+ (check current version on system using : `python3 --version`)   
 To download Python3.8 run following commands:
 ```
-~chmod +x ./Scripts/Install_Python38.sh~
-~./Scripts/Install_Python38.sh~
+chmod +x ./Scripts/Install_Python38.sh
+./Scripts/Install_Python38.sh
 ```
 Asuming Python3.6+ is available  
 There are two ways to set-up:  
@@ -27,10 +27,10 @@ pip install -U setuptools
 pip install -r requirements.ubuntu.txt  
 jupyter notebook  
 ```
-~2. Or, Use helper script to run all of them automatically.~  
+~2. Or, Use helper script to run all of them automatically.~(Not safe)  
 ```
-~chmod +x ./Scripts/First_Run.sh~
-~./Scripts/First_Run.sh~
+chmod +x ./Scripts/First_Run.sh
+./Scripts/First_Run.sh
 ```
 
 ### 1.2 Windows
