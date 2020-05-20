@@ -11,5 +11,5 @@ sudo apt install python3-pip -y
 echo "##### STEP - 5/7 #####"
 sudo apt install python3.8-venv -y
 echo "##### STEP - 6/7 #####"
-sudo apt-get autoremove - y
+sudo apt-get autoremove -y
 echo "##### STEP - 7/7 #####"
