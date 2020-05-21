@@ -21,10 +21,10 @@ source Env_Tech_Sem/bin/activate
 pip freeze > tmp.txt
 pip uninstall -r tmp.txt -y
 rm -rf tmp.txt
-python -m pip install --upgrade pip 
-pip install -U wheel
-pip install -U setuptools
-pip install -r requirements.ubuntu.txt  
+python3 -m pip install --upgrade pip 
+python3 -m pip install -U wheel
+python3 -m pip install -U setuptools
+python3 -m pip install -r requirements.ubuntu.txt  
 jupyter notebook  
 ```
 ~2. Or, Use helper script to run all of them automatically~.    
